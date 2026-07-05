@@ -1,0 +1,44 @@
+{
+  "shrine": {
+    "deityId": "yellow-dzambhala",
+    "background": "/images/shrine/backgrounds/main-shrine-background.webp",
+    "heroLoop": "/videos/hero/main-shrine-loop.mp4",
+    "ambienceAudio": "/audio/ambience/temple/temple-ambience-day.mp3",
+    "layers": [
+      {
+        "id": "background",
+        "z": 0,
+        "asset": "/images/shrine/backgrounds/main-shrine-background.webp"
+      },
+      {
+        "id": "deity",
+        "z": 10,
+        "asset": "/images/deities/yellow-dzambhala/yellow-dzambhala.webp"
+      },
+      {
+        "id": "halo",
+        "z": 11,
+        "asset": "/images/overlays/lighting/halo-pulse-frame.webp",
+        "animation": "pulse-slow"
+      },
+      {
+        "id": "smoke",
+        "z": 20,
+        "asset": "/videos/effects/smoke/incense-smoke-screen-blend-loop.mp4",
+        "blendMode": "screen"
+      },
+      {
+        "id": "vignette",
+        "z": 30,
+        "asset": "/images/overlays/lighting/vignette-obsidian.webp"
+      }
+    ],
+    "kenBurns": {
+      "enabled": true,
+      "scaleFrom": 1.0,
+      "scaleTo": 1.06,
+      "durationMs": 24000,
+      "respectReducedMotion": true
+    }
+  }
+}

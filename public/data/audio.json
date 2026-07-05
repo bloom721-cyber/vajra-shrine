@@ -1,0 +1,29 @@
+{
+  "buses": {
+    "ambience": {
+      "defaultVolume": 0.5,
+      "loop": true
+    },
+    "voice": {
+      "defaultVolume": 0.9,
+      "loop": false
+    },
+    "ui": {
+      "defaultVolume": 0.7,
+      "loop": false
+    },
+    "music": {
+      "defaultVolume": 0.4,
+      "loop": true
+    }
+  },
+  "bell": {
+    "engine": "web-audio-synthesis",
+    "fallbackSample": "/audio/instruments/bells/temple-bell-soft.mp3",
+    "note": "Bell is synthesized via Web Audio API; sample is a fallback for restricted contexts."
+  },
+  "preload": [
+    "/audio/instruments/bells/temple-bell-soft.mp3",
+    "/audio/ui/ui-tap-soft.mp3"
+  ]
+}

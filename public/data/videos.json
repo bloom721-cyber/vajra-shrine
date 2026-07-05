@@ -1,0 +1,16 @@
+{
+  "playback": {
+    "muted": true,
+    "playsInline": true,
+    "autoplay": true,
+    "loopCrossfadeMs": 400,
+    "respectReducedMotion": true,
+    "reducedMotionFallback": "poster-image"
+  },
+  "budgets": {
+    "maxLoopKB": 350,
+    "maxCinematicKB": 4000,
+    "targetCodec": "h264",
+    "altCodec": "webm/vp9"
+  }
+}

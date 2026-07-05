@@ -1,0 +1,22 @@
+{
+  "credits": [
+    {
+      "role": "Still imagery",
+      "tool": "Midjourney",
+      "artist": "TBD"
+    },
+    {
+      "role": "Video loops",
+      "tool": "Kling AI",
+      "artist": "TBD"
+    },
+    {
+      "role": "Typography",
+      "fonts": [
+        "Cinzel (OFL)",
+        "Cormorant Garamond (OFL)",
+        "Noto Serif Tibetan (OFL)"
+      ]
+    }
+  ]
+}

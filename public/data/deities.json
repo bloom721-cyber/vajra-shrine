@@ -1,0 +1,68 @@
+{
+  "$schema": "./schemas/deities.schema.json",
+  "active": "yellow-dzambhala",
+  "deities": [
+    {
+      "id": "yellow-dzambhala",
+      "name": "Yellow Dzambhala",
+      "tibetan": "ཛམ་བྷ་ལ་སེར་པོ།",
+      "sanskrit": "Pīta Jambhala",
+      "epithet": "Lord of Wealth and Generosity",
+      "mantra": {
+        "roman": "OM DZAMBHALA DZALENDRAYE SOHA",
+        "tibetan": "ཨོཾ་ཛཾ་བྷ་ལ་ཛ་ལེན་དྲ་ཡེ་སྭཱ་ཧཱ།",
+        "recommendedCounts": [
+          7,
+          21,
+          108
+        ]
+      },
+      "palette": {
+        "primary": "#C9A227",
+        "secondary": "#8C6D1F",
+        "background": "#0B0B0D"
+      },
+      "assets": {
+        "portrait": "/images/deities/yellow-dzambhala/yellow-dzambhala.webp",
+        "shrineLoop": "/videos/deities/yellow-dzambhala/shrine-loops/yellow-dzambhala-shrine-loop.mp4",
+        "mantraAudio": "/audio/voice/deities/yellow-dzambhala/dzambhala-mantra-108-loop.mp3"
+      },
+      "status": "active"
+    },
+    {
+      "id": "white-tara",
+      "name": "White Tara",
+      "status": "planned"
+    },
+    {
+      "id": "green-tara",
+      "name": "Green Tara",
+      "status": "planned"
+    },
+    {
+      "id": "mahakala",
+      "name": "Mahakala",
+      "status": "planned"
+    },
+    {
+      "id": "medicine-buddha",
+      "name": "Medicine Buddha",
+      "status": "planned"
+    },
+    {
+      "id": "vajrasattva",
+      "name": "Vajrasattva",
+      "status": "planned"
+    },
+    {
+      "id": "guru-rinpoche",
+      "name": "Guru Rinpoche",
+      "status": "planned"
+    },
+    {
+      "id": "avalokiteshvara",
+      "name": "Avalokiteshvara",
+      "status": "planned"
+    }
+  ]
+}

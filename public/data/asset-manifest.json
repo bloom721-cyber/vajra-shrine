@@ -1,0 +1,4038 @@
+{
+  "$schema": "./manifest.schema.json",
+  "name": "yellow-dzambhala-asset-manifest",
+  "version": "0.1.0",
+  "generated": "2026-07-05",
+  "phase": "1-public-asset-library",
+  "conventions": {
+    "naming": "lowercase kebab-case, descriptive, no generic names",
+    "statusValues": [
+      "placeholder",
+      "in-review",
+      "final"
+    ],
+    "replacementProcedure": "Drop final file at the exact manifest path, keep filename, update status to final."
+  },
+  "counts": {
+    "total": 244,
+    "placeholders": 229
+  },
+  "assets": [
+    {
+      "filename": "bell-ripple.json",
+      "path": "/animations/lottie/bell-ripple.json",
+      "type": "data",
+      "purpose": "Vector animation (Lottie JSON)",
+      "screens": [
+        "various"
+      ],
+      "tags": [
+        "animation",
+        "lottie",
+        "bell-ripple"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512 comp",
+      "expectedDuration": "2-8s"
+    },
+    {
+      "filename": "endless-knot-draw.json",
+      "path": "/animations/lottie/endless-knot-draw.json",
+      "type": "data",
+      "purpose": "Vector animation (Lottie JSON)",
+      "screens": [
+        "various"
+      ],
+      "tags": [
+        "animation",
+        "lottie",
+        "endless-knot-draw"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512 comp",
+      "expectedDuration": "2-8s"
+    },
+    {
+      "filename": "lotus-bloom.json",
+      "path": "/animations/lottie/lotus-bloom.json",
+      "type": "data",
+      "purpose": "Vector animation (Lottie JSON)",
+      "screens": [
+        "various"
+      ],
+      "tags": [
+        "animation",
+        "lottie",
+        "lotus-bloom"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512 comp",
+      "expectedDuration": "2-8s"
+    },
+    {
+      "filename": "mantra-ring-rotation.json",
+      "path": "/animations/lottie/mantra-ring-rotation.json",
+      "type": "data",
+      "purpose": "Vector animation (Lottie JSON)",
+      "screens": [
+        "various"
+      ],
+      "tags": [
+        "animation",
+        "lottie",
+        "mantra-ring-rotation"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512 comp",
+      "expectedDuration": "2-8s"
+    },
+    {
+      "filename": "shrine-candle-interactive.riv",
+      "path": "/animations/rive/shrine-candle-interactive.riv",
+      "type": "animation",
+      "purpose": "Interactive Rive animation",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "animation",
+        "rive",
+        "shrine-candle-interactive"
+      ],
+      "status": "placeholder"
+    },
+    {
+      "filename": "flame-flicker-spritesheet.webp",
+      "path": "/animations/sprites/flame-flicker-spritesheet.webp",
+      "type": "image",
+      "purpose": "Raster spritesheet animation",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "animation",
+        "spritesheet",
+        "flame-flicker-spritesheet"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "power-of-two sheet",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "incense-smoke-spritesheet.webp",
+      "path": "/animations/sprites/incense-smoke-spritesheet.webp",
+      "type": "image",
+      "purpose": "Raster spritesheet animation",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "animation",
+        "spritesheet",
+        "incense-smoke-spritesheet"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "power-of-two sheet",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "butter-lamp-flicker.mp3",
+      "path": "/audio/ambience/fire/butter-lamp-flicker.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "butter-lamp-flicker"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "fire-crackle-soft.mp3",
+      "path": "/audio/ambience/fire/fire-crackle-soft.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "fire-crackle-soft"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-ambience-day.mp3",
+      "path": "/audio/ambience/temple/temple-ambience-day.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "temple-ambience-day"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-ambience-night.mp3",
+      "path": "/audio/ambience/temple/temple-ambience-night.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "temple-ambience-night"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "stream-distant.mp3",
+      "path": "/audio/ambience/water/stream-distant.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "stream-distant"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "water-trickle.mp3",
+      "path": "/audio/ambience/water/water-trickle.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "water-trickle"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "mountain-wind-soft.mp3",
+      "path": "/audio/ambience/wind/mountain-wind-soft.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "mountain-wind-soft"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "prayer-flags-flutter.mp3",
+      "path": "/audio/ambience/wind/prayer-flags-flutter.mp3",
+      "type": "audio",
+      "purpose": "Looping environmental ambience bed",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "ambience",
+        "loop",
+        "prayer-flags-flutter"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "60-120s seamless loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "footsteps-stone-temple.mp3",
+      "path": "/audio/foley/footsteps/footsteps-stone-temple.mp3",
+      "type": "audio",
+      "purpose": "Foley detail sounds",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "foley",
+        "footsteps-stone-temple"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "1-4s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "incense-strike-light.mp3",
+      "path": "/audio/foley/incense/incense-strike-light.mp3",
+      "type": "audio",
+      "purpose": "Foley detail sounds",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "foley",
+        "incense-strike-light"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "1-4s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-bell-deep.mp3",
+      "path": "/audio/instruments/bells/temple-bell-deep.mp3",
+      "type": "audio",
+      "purpose": "Temple bell strikes (fallback for Web Audio synthesis)",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "bell",
+        "instrument",
+        "temple-bell-deep"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "3-8s with natural decay",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-bell-soft.mp3",
+      "path": "/audio/instruments/bells/temple-bell-soft.mp3",
+      "type": "audio",
+      "purpose": "Temple bell strikes (fallback for Web Audio synthesis)",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "bell",
+        "instrument",
+        "temple-bell-soft"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "3-8s with natural decay",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-bell-triple.mp3",
+      "path": "/audio/instruments/bells/temple-bell-triple.mp3",
+      "type": "audio",
+      "purpose": "Temple bell strikes (fallback for Web Audio synthesis)",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "bell",
+        "instrument",
+        "temple-bell-triple"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "3-8s with natural decay",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "prayer-wheel-creak.mp3",
+      "path": "/audio/instruments/prayer-wheels/prayer-wheel-creak.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "prayer-wheel-creak"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "prayer-wheel-spin.mp3",
+      "path": "/audio/instruments/prayer-wheels/prayer-wheel-spin.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "prayer-wheel-spin"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "singing-bowl-rim.mp3",
+      "path": "/audio/instruments/singing-bowls/singing-bowl-rim.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "singing-bowl-rim"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "singing-bowl-strike.mp3",
+      "path": "/audio/instruments/singing-bowls/singing-bowl-strike.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "singing-bowl-strike"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "wood-block-tap.mp3",
+      "path": "/audio/instruments/wood/wood-block-tap.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "wood-block-tap"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "wooden-door-close.mp3",
+      "path": "/audio/instruments/wood/wooden-door-close.mp3",
+      "type": "audio",
+      "purpose": "Ritual instrument recordings",
+      "screens": [
+        "practice",
+        "ui"
+      ],
+      "tags": [
+        "instrument",
+        "wooden-door-close"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-10s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "breathing-pace-tone.mp3",
+      "path": "/audio/meditation/breathing-pace-tone.mp3",
+      "type": "audio",
+      "purpose": "Meditation support tones and drones",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "meditation",
+        "breathing-pace-tone"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "loopable 60s+",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "meditation-drone-low.mp3",
+      "path": "/audio/meditation/meditation-drone-low.mp3",
+      "type": "audio",
+      "purpose": "Meditation support tones and drones",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "meditation",
+        "meditation-drone-low"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "loopable 60s+",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "closing-music-gentle.mp3",
+      "path": "/audio/music/closing-music-gentle.mp3",
+      "type": "audio",
+      "purpose": "Ambient musical beds",
+      "screens": [
+        "shrine",
+        "closing"
+      ],
+      "tags": [
+        "music",
+        "closing-music-gentle"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-4min loopable",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "temple-music-ambient.mp3",
+      "path": "/audio/music/temple-music-ambient.mp3",
+      "type": "audio",
+      "purpose": "Ambient musical beds",
+      "screens": [
+        "shrine",
+        "closing"
+      ],
+      "tags": [
+        "music",
+        "temple-music-ambient"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-4min loopable",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "notification-bell-gentle.mp3",
+      "path": "/audio/notifications/notification-bell-gentle.mp3",
+      "type": "audio",
+      "purpose": "Gentle notification tones",
+      "screens": [
+        "system"
+      ],
+      "tags": [
+        "notification",
+        "notification-bell-gentle"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "1-3s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "practice-reminder-bowl.mp3",
+      "path": "/audio/notifications/practice-reminder-bowl.mp3",
+      "type": "audio",
+      "purpose": "Gentle notification tones",
+      "screens": [
+        "system"
+      ],
+      "tags": [
+        "notification",
+        "practice-reminder-bowl"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "1-3s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "butter-lamp-ignite.mp3",
+      "path": "/audio/offerings/butter-lamp-ignite.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "butter-lamp-ignite"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "flower-place.mp3",
+      "path": "/audio/offerings/flower-place.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "flower-place"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "fruit-place.mp3",
+      "path": "/audio/offerings/fruit-place.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "fruit-place"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "incense-light.mp3",
+      "path": "/audio/offerings/incense-light.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "incense-light"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "jewel-place.mp3",
+      "path": "/audio/offerings/jewel-place.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "jewel-place"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "water-offering-pour.mp3",
+      "path": "/audio/offerings/water-offering-pour.mp3",
+      "type": "audio",
+      "purpose": "One-shot sounds accompanying each offering",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "sound",
+        "water-offering-pour"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "2-6s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "room-tone-temple.mp3",
+      "path": "/audio/silence/room-tone-temple.mp3",
+      "type": "audio",
+      "purpose": "Room tone to avoid dead-air artifacts",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "room-tone",
+        "room-tone-temple"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "30-60s loop",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "ui-back-whisper.mp3",
+      "path": "/audio/ui/ui-back-whisper.mp3",
+      "type": "audio",
+      "purpose": "Interface interaction sounds \u2014 quiet, organic, non-gamified",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "sound",
+        "ui-back-whisper"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "0.2-1s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "ui-confirm-chime.mp3",
+      "path": "/audio/ui/ui-confirm-chime.mp3",
+      "type": "audio",
+      "purpose": "Interface interaction sounds \u2014 quiet, organic, non-gamified",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "sound",
+        "ui-confirm-chime"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "0.2-1s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "ui-tap-soft.mp3",
+      "path": "/audio/ui/ui-tap-soft.mp3",
+      "type": "audio",
+      "purpose": "Interface interaction sounds \u2014 quiet, organic, non-gamified",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "sound",
+        "ui-tap-soft"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "0.2-1s",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "dzambhala-mantra-108-loop.mp3",
+      "path": "/audio/voice/deities/yellow-dzambhala/dzambhala-mantra-108-loop.mp3",
+      "type": "audio",
+      "purpose": "Chanted Dzambhala mantra recordings",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "mantra",
+        "voice",
+        "yellow-dzambhala",
+        "dzambhala-mantra-108-loop"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "single: 4-8s; 108-loop: 10-20min",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "dzambhala-mantra-chanted-slow.mp3",
+      "path": "/audio/voice/deities/yellow-dzambhala/dzambhala-mantra-chanted-slow.mp3",
+      "type": "audio",
+      "purpose": "Chanted Dzambhala mantra recordings",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "mantra",
+        "voice",
+        "yellow-dzambhala",
+        "dzambhala-mantra-chanted-slow"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "single: 4-8s; 108-loop: 10-20min",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "dzambhala-mantra-single.mp3",
+      "path": "/audio/voice/deities/yellow-dzambhala/dzambhala-mantra-single.mp3",
+      "type": "audio",
+      "purpose": "Chanted Dzambhala mantra recordings",
+      "screens": [
+        "practice"
+      ],
+      "tags": [
+        "mantra",
+        "voice",
+        "yellow-dzambhala",
+        "dzambhala-mantra-single"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "single: 4-8s; 108-loop: 10-20min",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "merit-dedication-spoken.mp3",
+      "path": "/audio/voice/guided/merit-dedication-spoken.mp3",
+      "type": "audio",
+      "purpose": "Spoken guidance recordings",
+      "screens": [
+        "merit",
+        "onboarding"
+      ],
+      "tags": [
+        "voice",
+        "merit-dedication-spoken"
+      ],
+      "status": "placeholder",
+      "expectedDuration": "as-recorded",
+      "maxFileSizeKB": 2000
+    },
+    {
+      "filename": "animations.json",
+      "path": "/data/animations.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "animations"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "audio.json",
+      "path": "/data/audio.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "audio"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "credits.json",
+      "path": "/data/credits.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "credits"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "deities.json",
+      "path": "/data/deities.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "deities"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "offerings.json",
+      "path": "/data/offerings.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "offerings"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "prayers.json",
+      "path": "/data/prayers.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "prayers"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "settings.json",
+      "path": "/data/settings.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "settings"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "shrine.json",
+      "path": "/data/shrine.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "shrine"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "theme.json",
+      "path": "/data/theme.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "theme"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "translations.json",
+      "path": "/data/translations.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "translations"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "version.json",
+      "path": "/data/version.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "version"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "videos.json",
+      "path": "/data/videos.json",
+      "type": "data",
+      "purpose": "Structured application data",
+      "screens": [
+        "app"
+      ],
+      "tags": [
+        "data",
+        "videos"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "artist-credits.md",
+      "path": "/documents/credits/artist-credits.md",
+      "type": "document",
+      "purpose": "Project documentation",
+      "screens": [
+        "repo"
+      ],
+      "tags": [
+        "document",
+        "artist-credits"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "asset-licenses.md",
+      "path": "/documents/licenses/asset-licenses.md",
+      "type": "document",
+      "purpose": "Project documentation",
+      "screens": [
+        "repo"
+      ],
+      "tags": [
+        "document",
+        "asset-licenses"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "font-licenses.md",
+      "path": "/documents/licenses/font-licenses.md",
+      "type": "document",
+      "purpose": "Project documentation",
+      "screens": [
+        "repo"
+      ],
+      "tags": [
+        "document",
+        "font-licenses"
+      ],
+      "status": "final"
+    },
+    {
+      "filename": "cinzel-bold.woff2",
+      "path": "/fonts/cinzel/cinzel-bold.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cinzel-bold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cinzel-medium.woff2",
+      "path": "/fonts/cinzel/cinzel-medium.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cinzel-medium"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cinzel-regular.woff2",
+      "path": "/fonts/cinzel/cinzel-regular.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cinzel-regular"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cinzel-semibold.woff2",
+      "path": "/fonts/cinzel/cinzel-semibold.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cinzel-semibold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cormorant-garamond-italic.woff2",
+      "path": "/fonts/cormorant-garamond/cormorant-garamond-italic.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cormorant-garamond-italic"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cormorant-garamond-medium.woff2",
+      "path": "/fonts/cormorant-garamond/cormorant-garamond-medium.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cormorant-garamond-medium"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cormorant-garamond-regular.woff2",
+      "path": "/fonts/cormorant-garamond/cormorant-garamond-regular.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cormorant-garamond-regular"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "cormorant-garamond-semibold.woff2",
+      "path": "/fonts/cormorant-garamond/cormorant-garamond-semibold.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "cormorant-garamond-semibold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "noto-serif-tibetan-regular.woff2",
+      "path": "/fonts/tibetan/noto-serif-tibetan-regular.woff2",
+      "type": "font",
+      "purpose": "Self-hosted webfont",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "font",
+        "noto-serif-tibetan-regular"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "woff2"
+    },
+    {
+      "filename": "accessibility-reduced-motion.svg",
+      "path": "/icons/accessibility/accessibility-reduced-motion.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "accessibility-reduced-motion"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "accessibility-text-size.svg",
+      "path": "/icons/accessibility/accessibility-text-size.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "accessibility-text-size"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "action-begin-practice.svg",
+      "path": "/icons/actions/action-begin-practice.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "action-begin-practice"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "action-dedicate-merit.svg",
+      "path": "/icons/actions/action-dedicate-merit.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "action-dedicate-merit"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "action-make-offering.svg",
+      "path": "/icons/actions/action-make-offering.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "action-make-offering"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "action-ring-bell.svg",
+      "path": "/icons/actions/action-ring-bell.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "action-ring-bell"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "gesture-hold.svg",
+      "path": "/icons/gestures/gesture-hold.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "gesture-hold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "gesture-swipe-up.svg",
+      "path": "/icons/gestures/gesture-swipe-up.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "gesture-swipe-up"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "gesture-tap.svg",
+      "path": "/icons/gestures/gesture-tap.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "gesture-tap"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "menu-close.svg",
+      "path": "/icons/menu/menu-close.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "menu-close"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "menu-open.svg",
+      "path": "/icons/menu/menu-open.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "menu-open"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "nav-history.svg",
+      "path": "/icons/navigation/nav-history.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "nav-history"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "nav-offerings.svg",
+      "path": "/icons/navigation/nav-offerings.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "nav-offerings"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "nav-practice.svg",
+      "path": "/icons/navigation/nav-practice.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "nav-practice"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "nav-settings.svg",
+      "path": "/icons/navigation/nav-settings.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "nav-settings"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "nav-shrine.svg",
+      "path": "/icons/navigation/nav-shrine.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "nav-shrine"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "notification-bell.svg",
+      "path": "/icons/notifications/notification-bell.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "notification-bell"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "notification-dot.svg",
+      "path": "/icons/notifications/notification-dot.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "notification-dot"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-butter-lamp.svg",
+      "path": "/icons/offerings/offering-butter-lamp.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-butter-lamp"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-flower.svg",
+      "path": "/icons/offerings/offering-flower.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-flower"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-fruit.svg",
+      "path": "/icons/offerings/offering-fruit.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-fruit"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-incense.svg",
+      "path": "/icons/offerings/offering-incense.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-incense"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-jewel.svg",
+      "path": "/icons/offerings/offering-jewel.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-jewel"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "offering-water.svg",
+      "path": "/icons/offerings/offering-water.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "offering-water"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "setting-haptics.svg",
+      "path": "/icons/settings/setting-haptics.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "setting-haptics"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "setting-language.svg",
+      "path": "/icons/settings/setting-language.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "setting-language"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "setting-notifications.svg",
+      "path": "/icons/settings/setting-notifications.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "setting-notifications"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "setting-reduced-motion.svg",
+      "path": "/icons/settings/setting-reduced-motion.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "setting-reduced-motion"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "setting-sound.svg",
+      "path": "/icons/settings/setting-sound.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "setting-sound"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "status-offline.svg",
+      "path": "/icons/status/status-offline.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "status-offline"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "status-session-active.svg",
+      "path": "/icons/status/status-session-active.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "status-session-active"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "status-synced.svg",
+      "path": "/icons/status/status-synced.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "status-synced"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "system-back.svg",
+      "path": "/icons/system/system-back.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "system-back"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "system-close.svg",
+      "path": "/icons/system/system-close.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "system-close"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "system-info.svg",
+      "path": "/icons/system/system-info.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "system-info"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "system-share.svg",
+      "path": "/icons/system/system-share.svg",
+      "type": "vector",
+      "purpose": "Interface icon, single-color gold stroke on transparent",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "icon",
+        "system-share"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 24x24 grid, 1.5px stroke"
+    },
+    {
+      "filename": "app-icon-1024.png",
+      "path": "/images/branding/app-icons/app-icon-1024.png",
+      "type": "image",
+      "purpose": "App icon masters for iOS/Android",
+      "screens": [
+        "system"
+      ],
+      "tags": [
+        "branding",
+        "icon",
+        "app-icon-1024"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 PNG, no alpha for iOS master",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "app-icon-adaptive-background.png",
+      "path": "/images/branding/app-icons/app-icon-adaptive-background.png",
+      "type": "image",
+      "purpose": "App icon masters for iOS/Android",
+      "screens": [
+        "system"
+      ],
+      "tags": [
+        "branding",
+        "icon",
+        "app-icon-adaptive-background"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 PNG, no alpha for iOS master",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "app-icon-adaptive-foreground.png",
+      "path": "/images/branding/app-icons/app-icon-adaptive-foreground.png",
+      "type": "image",
+      "purpose": "App icon masters for iOS/Android",
+      "screens": [
+        "system"
+      ],
+      "tags": [
+        "branding",
+        "icon",
+        "app-icon-adaptive-foreground"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 PNG, no alpha for iOS master",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "app-logo-full.svg",
+      "path": "/images/branding/logos/app-logo-full.svg",
+      "type": "vector",
+      "purpose": "Brand marks",
+      "screens": [
+        "splash",
+        "settings"
+      ],
+      "tags": [
+        "branding",
+        "app-logo-full"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG"
+    },
+    {
+      "filename": "app-logo-mark.svg",
+      "path": "/images/branding/logos/app-logo-mark.svg",
+      "type": "vector",
+      "purpose": "Brand marks",
+      "screens": [
+        "splash",
+        "settings"
+      ],
+      "tags": [
+        "branding",
+        "app-logo-mark"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG"
+    },
+    {
+      "filename": "app-logo-wordmark.svg",
+      "path": "/images/branding/logos/app-logo-wordmark.svg",
+      "type": "vector",
+      "purpose": "Brand marks",
+      "screens": [
+        "splash",
+        "settings"
+      ],
+      "tags": [
+        "branding",
+        "app-logo-wordmark"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG"
+    },
+    {
+      "filename": "border-brocade.webp",
+      "path": "/images/decorative/borders/border-brocade.webp",
+      "type": "image",
+      "purpose": "Decorative borders and frames",
+      "screens": [
+        "cards",
+        "settings"
+      ],
+      "tags": [
+        "ornament",
+        "border-brocade"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG preferred; WebP for painted frames",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "border-gold-thin.svg",
+      "path": "/images/decorative/borders/border-gold-thin.svg",
+      "type": "vector",
+      "purpose": "Decorative borders and frames",
+      "screens": [
+        "cards",
+        "settings"
+      ],
+      "tags": [
+        "ornament",
+        "border-gold-thin"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG preferred; WebP for painted frames"
+    },
+    {
+      "filename": "endless-knot-divider.svg",
+      "path": "/images/decorative/dividers/endless-knot-divider.svg",
+      "type": "vector",
+      "purpose": "Ornamental screen-title dividers (endless knot family)",
+      "screens": [
+        "all-titles"
+      ],
+      "tags": [
+        "ornament",
+        "divider",
+        "endless-knot-divider"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 480x64 nominal"
+    },
+    {
+      "filename": "lotus-divider.svg",
+      "path": "/images/decorative/dividers/lotus-divider.svg",
+      "type": "vector",
+      "purpose": "Ornamental screen-title dividers (endless knot family)",
+      "screens": [
+        "all-titles"
+      ],
+      "tags": [
+        "ornament",
+        "divider",
+        "lotus-divider"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, 480x64 nominal"
+    },
+    {
+      "filename": "frame-antique-gold.webp",
+      "path": "/images/decorative/frames/frame-antique-gold.webp",
+      "type": "image",
+      "purpose": "Decorative borders and frames",
+      "screens": [
+        "cards",
+        "settings"
+      ],
+      "tags": [
+        "ornament",
+        "frame-antique-gold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG preferred; WebP for painted frames",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "frame-card-ornate.webp",
+      "path": "/images/decorative/frames/frame-card-ornate.webp",
+      "type": "image",
+      "purpose": "Decorative borders and frames",
+      "screens": [
+        "cards",
+        "settings"
+      ],
+      "tags": [
+        "ornament",
+        "frame-card-ornate"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG preferred; WebP for painted frames",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "deity-frame-gold.webp",
+      "path": "/images/deities/_shared/deity-frame-gold.webp",
+      "type": "image",
+      "purpose": "Deity-agnostic frames and glows reused across shrines",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "deity",
+        "shared",
+        "deity-frame-gold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "deity-glow-overlay.webp",
+      "path": "/images/deities/_shared/deity-glow-overlay.webp",
+      "type": "image",
+      "purpose": "Deity-agnostic frames and glows reused across shrines",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "deity",
+        "shared",
+        "deity-glow-overlay"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-face-detail.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-face-detail.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-face-detail"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-full-body.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-full-body.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-full-body"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-halo.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-halo.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-halo"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-mongoose-detail.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-mongoose-detail.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-mongoose-detail"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-portrait.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-portrait.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-portrait"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-silhouette.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala-silhouette.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala-silhouette"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala.webp",
+      "path": "/images/deities/yellow-dzambhala/yellow-dzambhala.webp",
+      "type": "image",
+      "purpose": "Yellow Dzambhala deity artwork",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "deity",
+        "yellow-dzambhala",
+        "yellow-dzambhala"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px min edge, transparent PNG/WebP where cut out",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "bronze-patina.webp",
+      "path": "/images/materials/bronze-patina.webp",
+      "type": "image",
+      "purpose": "Material reference/finish imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "material",
+        "bronze-patina"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "dark-wood-grain.webp",
+      "path": "/images/materials/dark-wood-grain.webp",
+      "type": "image",
+      "purpose": "Material reference/finish imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "material",
+        "dark-wood-grain"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "polished-gold.webp",
+      "path": "/images/materials/polished-gold.webp",
+      "type": "image",
+      "purpose": "Material reference/finish imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "material",
+        "polished-gold"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "butter-lamp-row.webp",
+      "path": "/images/offerings/butter-lamps/butter-lamp-row.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "butter-lamp-row"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "butter-lamp-single.webp",
+      "path": "/images/offerings/butter-lamps/butter-lamp-single.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "butter-lamp-single"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "flower-garland.webp",
+      "path": "/images/offerings/flowers/flower-garland.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "flower-garland"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "lotus-offering-fresh.webp",
+      "path": "/images/offerings/flowers/lotus-offering-fresh.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "lotus-offering-fresh"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "fruit-offering-mandarin.webp",
+      "path": "/images/offerings/fruit/fruit-offering-mandarin.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "fruit-offering-mandarin"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "fruit-offering-plate.webp",
+      "path": "/images/offerings/fruit/fruit-offering-plate.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "fruit-offering-plate"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "incense-burner.webp",
+      "path": "/images/offerings/incense/incense-burner.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "incense-burner"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "incense-sticks.webp",
+      "path": "/images/offerings/incense/incense-sticks.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "incense-sticks"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "jewel-offering-heap.webp",
+      "path": "/images/offerings/jewels/jewel-offering-heap.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "jewel-offering-heap"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "wish-fulfilling-jewel.webp",
+      "path": "/images/offerings/jewels/wish-fulfilling-jewel.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "wish-fulfilling-jewel"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "water-offering-bowl.webp",
+      "path": "/images/offerings/water/water-offering-bowl.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "water-offering-bowl"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "water-offering-seven-bowls.webp",
+      "path": "/images/offerings/water/water-offering-seven-bowls.webp",
+      "type": "image",
+      "purpose": "Offering still imagery for info cards and flows",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "card",
+        "water-offering-seven-bowls"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1200x1200",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "candle-glow-soft.webp",
+      "path": "/images/overlays/lighting/candle-glow-soft.webp",
+      "type": "image",
+      "purpose": "Additive/screen-blend lighting overlay",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "lighting",
+        "candle-glow-soft"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "match target screen, PNG/WebP with alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "golden-light-rays.webp",
+      "path": "/images/overlays/lighting/golden-light-rays.webp",
+      "type": "image",
+      "purpose": "Additive/screen-blend lighting overlay",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "lighting",
+        "golden-light-rays"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "match target screen, PNG/WebP with alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "halo-pulse-frame.webp",
+      "path": "/images/overlays/lighting/halo-pulse-frame.webp",
+      "type": "image",
+      "purpose": "Additive/screen-blend lighting overlay",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "lighting",
+        "halo-pulse-frame"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "match target screen, PNG/WebP with alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "vignette-obsidian.webp",
+      "path": "/images/overlays/lighting/vignette-obsidian.webp",
+      "type": "image",
+      "purpose": "Additive/screen-blend lighting overlay",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "lighting",
+        "vignette-obsidian"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "match target screen, PNG/WebP with alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "dust-motes-golden.webp",
+      "path": "/images/overlays/particles/dust-motes-golden.webp",
+      "type": "image",
+      "purpose": "Static particle overlay texture",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "particles",
+        "dust-motes-golden"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "ember-sparks.webp",
+      "path": "/images/overlays/particles/ember-sparks.webp",
+      "type": "image",
+      "purpose": "Static particle overlay texture",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "particles",
+        "ember-sparks"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "incense-smoke-dense.webp",
+      "path": "/images/overlays/smoke/incense-smoke-dense.webp",
+      "type": "image",
+      "purpose": "Static smoke overlay (fallback for reduced motion)",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "smoke",
+        "reduced-motion-fallback",
+        "incense-smoke-dense"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "incense-smoke-wisp.webp",
+      "path": "/images/overlays/smoke/incense-smoke-wisp.webp",
+      "type": "image",
+      "purpose": "Static smoke overlay (fallback for reduced motion)",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "overlay",
+        "smoke",
+        "reduced-motion-fallback",
+        "incense-smoke-wisp"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "altar-offering-tier.webp",
+      "path": "/images/shrine/altars/altar-offering-tier.webp",
+      "type": "image",
+      "purpose": "Altar composition layer placed beneath the deity",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "altar",
+        "altar-offering-tier"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px wide",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-altar-night.webp",
+      "path": "/images/shrine/altars/yellow-dzambhala-altar-night.webp",
+      "type": "image",
+      "purpose": "Altar composition layer placed beneath the deity",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "altar",
+        "yellow-dzambhala-altar-night"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px wide",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "yellow-dzambhala-altar.webp",
+      "path": "/images/shrine/altars/yellow-dzambhala-altar.webp",
+      "type": "image",
+      "purpose": "Altar composition layer placed beneath the deity",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "altar",
+        "yellow-dzambhala-altar"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px wide",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "temple-entrance-arch.webp",
+      "path": "/images/shrine/architecture/temple-entrance-arch.webp",
+      "type": "image",
+      "purpose": "Temple architecture framing elements",
+      "screens": [
+        "shrine",
+        "onboarding"
+      ],
+      "tags": [
+        "architecture",
+        "temple-entrance-arch"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-composed",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "temple-pillars-left.webp",
+      "path": "/images/shrine/architecture/temple-pillars-left.webp",
+      "type": "image",
+      "purpose": "Temple architecture framing elements",
+      "screens": [
+        "shrine",
+        "onboarding"
+      ],
+      "tags": [
+        "architecture",
+        "temple-pillars-left"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-composed",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "temple-pillars-right.webp",
+      "path": "/images/shrine/architecture/temple-pillars-right.webp",
+      "type": "image",
+      "purpose": "Temple architecture framing elements",
+      "screens": [
+        "shrine",
+        "onboarding"
+      ],
+      "tags": [
+        "architecture",
+        "temple-pillars-right"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-composed",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "temple-roof-detail.webp",
+      "path": "/images/shrine/architecture/temple-roof-detail.webp",
+      "type": "image",
+      "purpose": "Temple architecture framing elements",
+      "screens": [
+        "shrine",
+        "onboarding"
+      ],
+      "tags": [
+        "architecture",
+        "temple-roof-detail"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-composed",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "main-shrine-background-dark.webp",
+      "path": "/images/shrine/backgrounds/main-shrine-background-dark.webp",
+      "type": "image",
+      "purpose": "Full-screen shrine environment background",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "environment",
+        "background",
+        "main-shrine-background-dark"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048x2732 (portrait) / provide @1x and @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "main-shrine-background-mobile.webp",
+      "path": "/images/shrine/backgrounds/main-shrine-background-mobile.webp",
+      "type": "image",
+      "purpose": "Full-screen shrine environment background",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "environment",
+        "background",
+        "main-shrine-background-mobile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048x2732 (portrait) / provide @1x and @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "main-shrine-background.webp",
+      "path": "/images/shrine/backgrounds/main-shrine-background.webp",
+      "type": "image",
+      "purpose": "Full-screen shrine environment background",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "environment",
+        "background",
+        "main-shrine-background"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048x2732 (portrait) / provide @1x and @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "merit-dedication-background.webp",
+      "path": "/images/shrine/backgrounds/merit-dedication-background.webp",
+      "type": "image",
+      "purpose": "Full-screen shrine environment background",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "environment",
+        "background",
+        "merit-dedication-background"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048x2732 (portrait) / provide @1x and @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "practice-screen-background.webp",
+      "path": "/images/shrine/backgrounds/practice-screen-background.webp",
+      "type": "image",
+      "purpose": "Full-screen shrine environment background",
+      "screens": [
+        "shrine",
+        "practice"
+      ],
+      "tags": [
+        "environment",
+        "background",
+        "practice-screen-background"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048x2732 (portrait) / provide @1x and @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "brocade-hanging.webp",
+      "path": "/images/shrine/temple-details/brocade-hanging.webp",
+      "type": "image",
+      "purpose": "Close-up temple detail imagery for cards and ambience",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "detail",
+        "brocade-hanging"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px min edge",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "butter-lamp-cluster.webp",
+      "path": "/images/shrine/temple-details/butter-lamp-cluster.webp",
+      "type": "image",
+      "purpose": "Close-up temple detail imagery for cards and ambience",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "detail",
+        "butter-lamp-cluster"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px min edge",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "prayer-wheel-row.webp",
+      "path": "/images/shrine/temple-details/prayer-wheel-row.webp",
+      "type": "image",
+      "purpose": "Close-up temple detail imagery for cards and ambience",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "detail",
+        "prayer-wheel-row"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px min edge",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "silk-canopy-detail.webp",
+      "path": "/images/shrine/temple-details/silk-canopy-detail.webp",
+      "type": "image",
+      "purpose": "Close-up temple detail imagery for cards and ambience",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "detail",
+        "silk-canopy-detail"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px min edge",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "conch-shell.svg",
+      "path": "/images/symbols/auspicious/conch-shell.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "conch-shell"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "dharma-wheel.svg",
+      "path": "/images/symbols/auspicious/dharma-wheel.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "dharma-wheel"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "endless-knot.svg",
+      "path": "/images/symbols/auspicious/endless-knot.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "endless-knot"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "golden-fishes.svg",
+      "path": "/images/symbols/auspicious/golden-fishes.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "golden-fishes"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "lotus.svg",
+      "path": "/images/symbols/auspicious/lotus.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "lotus"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "parasol.svg",
+      "path": "/images/symbols/auspicious/parasol.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "parasol"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "treasure-vase.svg",
+      "path": "/images/symbols/auspicious/treasure-vase.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "treasure-vase"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "victory-banner.svg",
+      "path": "/images/symbols/auspicious/victory-banner.svg",
+      "type": "vector",
+      "purpose": "Eight Auspicious Symbols line art (gold on transparent)",
+      "screens": [
+        "all"
+      ],
+      "tags": [
+        "symbol",
+        "ornament",
+        "victory-banner"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "SVG, viewBox 0 0 512 512"
+    },
+    {
+      "filename": "treasure-vase.webp",
+      "path": "/images/symbols/jewels/treasure-vase.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "treasure-vase"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "triple-gem.webp",
+      "path": "/images/symbols/jewels/triple-gem.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "triple-gem"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "lotus-bud.webp",
+      "path": "/images/symbols/lotus/lotus-bud.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "lotus-bud"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "lotus-open.webp",
+      "path": "/images/symbols/lotus/lotus-open.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "lotus-open"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "lotus-pedestal.webp",
+      "path": "/images/symbols/lotus/lotus-pedestal.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "lotus-pedestal"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "abhaya-mudra.webp",
+      "path": "/images/symbols/mudras/abhaya-mudra.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "abhaya-mudra"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "varada-mudra.webp",
+      "path": "/images/symbols/mudras/varada-mudra.webp",
+      "type": "image",
+      "purpose": "Sacred symbol imagery",
+      "screens": [
+        "shrine",
+        "offerings"
+      ],
+      "tags": [
+        "symbol",
+        "varada-mudra"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "aged-parchment.webp",
+      "path": "/images/textures/aged-parchment.webp",
+      "type": "image",
+      "purpose": "Non-tiling surface texture imagery",
+      "screens": [
+        "backgrounds"
+      ],
+      "tags": [
+        "texture",
+        "aged-parchment"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "antique-gold-leaf.webp",
+      "path": "/images/textures/antique-gold-leaf.webp",
+      "type": "image",
+      "purpose": "Non-tiling surface texture imagery",
+      "screens": [
+        "backgrounds"
+      ],
+      "tags": [
+        "texture",
+        "antique-gold-leaf"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "obsidian-stone.webp",
+      "path": "/images/textures/obsidian-stone.webp",
+      "type": "image",
+      "purpose": "Non-tiling surface texture imagery",
+      "screens": [
+        "backgrounds"
+      ],
+      "tags": [
+        "texture",
+        "obsidian-stone"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "silk-brocade-red.webp",
+      "path": "/images/textures/silk-brocade-red.webp",
+      "type": "image",
+      "purpose": "Non-tiling surface texture imagery",
+      "screens": [
+        "backgrounds"
+      ],
+      "tags": [
+        "texture",
+        "silk-brocade-red"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "2048px",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "button-gold-default.webp",
+      "path": "/images/ui/buttons/button-gold-default.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "button-gold-default"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "button-gold-pressed.webp",
+      "path": "/images/ui/buttons/button-gold-pressed.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "button-gold-pressed"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "button-obsidian-default.webp",
+      "path": "/images/ui/buttons/button-obsidian-default.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "button-obsidian-default"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "empty-history-lotus.webp",
+      "path": "/images/ui/empty-states/empty-history-lotus.webp",
+      "type": "image",
+      "purpose": "Empty-state illustrations",
+      "screens": [
+        "history",
+        "offerings"
+      ],
+      "tags": [
+        "ui",
+        "empty-state",
+        "empty-history-lotus"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "800x800",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "empty-offerings-bowl.webp",
+      "path": "/images/ui/empty-states/empty-offerings-bowl.webp",
+      "type": "image",
+      "purpose": "Empty-state illustrations",
+      "screens": [
+        "history",
+        "offerings"
+      ],
+      "tags": [
+        "ui",
+        "empty-state",
+        "empty-offerings-bowl"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "800x800",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "onboarding-mantra-ring.webp",
+      "path": "/images/ui/illustrations/onboarding-mantra-ring.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "onboarding-mantra-ring"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "onboarding-temple-doors.webp",
+      "path": "/images/ui/illustrations/onboarding-temple-doors.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "onboarding-temple-doors"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "loading-endless-knot.svg",
+      "path": "/images/ui/loading/loading-endless-knot.svg",
+      "type": "vector",
+      "purpose": "Loading-state artwork",
+      "screens": [
+        "loading"
+      ],
+      "tags": [
+        "ui",
+        "loading",
+        "loading-endless-knot"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512"
+    },
+    {
+      "filename": "loading-mandala.webp",
+      "path": "/images/ui/loading/loading-mandala.webp",
+      "type": "image",
+      "purpose": "Loading-state artwork",
+      "screens": [
+        "loading"
+      ],
+      "tags": [
+        "ui",
+        "loading",
+        "loading-mandala"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "512x512",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "settings-header-ornament.webp",
+      "path": "/images/ui/settings/settings-header-ornament.webp",
+      "type": "image",
+      "purpose": "UI chrome imagery",
+      "screens": [
+        "ui"
+      ],
+      "tags": [
+        "ui",
+        "settings-header-ornament"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "as-needed, @2x",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "splash-screen-mobile.webp",
+      "path": "/images/ui/splash/splash-screen-mobile.webp",
+      "type": "image",
+      "purpose": "Launch splash artwork",
+      "screens": [
+        "splash"
+      ],
+      "tags": [
+        "ui",
+        "splash",
+        "splash-screen-mobile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1284x2778 and 2048x2732",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "splash-screen.webp",
+      "path": "/images/ui/splash/splash-screen.webp",
+      "type": "image",
+      "purpose": "Launch splash artwork",
+      "screens": [
+        "splash"
+      ],
+      "tags": [
+        "ui",
+        "splash",
+        "splash-screen"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1284x2778 and 2048x2732",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "shrine-room.glb",
+      "path": "/models/environments/shrine-room.glb",
+      "type": "model-3d",
+      "purpose": "3D environment model",
+      "screens": [
+        "future-3d"
+      ],
+      "tags": [
+        "model",
+        "environment",
+        "shrine-room"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "<=200k tris"
+    },
+    {
+      "filename": "butter-lamp.glb",
+      "path": "/models/props/butter-lamp.glb",
+      "type": "model-3d",
+      "purpose": "3D prop model (glTF binary)",
+      "screens": [
+        "future-3d"
+      ],
+      "tags": [
+        "model",
+        "prop",
+        "butter-lamp"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "<=50k tris, PBR"
+    },
+    {
+      "filename": "offering-bowl.glb",
+      "path": "/models/props/offering-bowl.glb",
+      "type": "model-3d",
+      "purpose": "3D prop model (glTF binary)",
+      "screens": [
+        "future-3d"
+      ],
+      "tags": [
+        "model",
+        "prop",
+        "offering-bowl"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "<=50k tris, PBR"
+    },
+    {
+      "filename": "prayer-wheel.glb",
+      "path": "/models/props/prayer-wheel.glb",
+      "type": "model-3d",
+      "purpose": "3D prop model (glTF binary)",
+      "screens": [
+        "future-3d"
+      ],
+      "tags": [
+        "model",
+        "prop",
+        "prayer-wheel"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "<=50k tris, PBR"
+    },
+    {
+      "filename": "falling-petals.particle.json",
+      "path": "/particles/configs/falling-petals.particle.json",
+      "type": "data",
+      "purpose": "Particle emitter configuration",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "config",
+        "falling-petals.particle"
+      ],
+      "status": "placeholder"
+    },
+    {
+      "filename": "golden-dust.particle.json",
+      "path": "/particles/configs/golden-dust.particle.json",
+      "type": "data",
+      "purpose": "Particle emitter configuration",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "config",
+        "golden-dust.particle"
+      ],
+      "status": "placeholder"
+    },
+    {
+      "filename": "incense-smoke.particle.json",
+      "path": "/particles/configs/incense-smoke.particle.json",
+      "type": "data",
+      "purpose": "Particle emitter configuration",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "config",
+        "incense-smoke.particle"
+      ],
+      "status": "placeholder"
+    },
+    {
+      "filename": "particle-ember.webp",
+      "path": "/particles/sprites/particle-ember.webp",
+      "type": "image",
+      "purpose": "Individual particle sprite with alpha",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "sprite",
+        "particle-ember"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "128x128 or 256x256",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "particle-golden-mote.webp",
+      "path": "/particles/sprites/particle-golden-mote.webp",
+      "type": "image",
+      "purpose": "Individual particle sprite with alpha",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "sprite",
+        "particle-golden-mote"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "128x128 or 256x256",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "particle-petal.webp",
+      "path": "/particles/sprites/particle-petal.webp",
+      "type": "image",
+      "purpose": "Individual particle sprite with alpha",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "particle",
+        "sprite",
+        "particle-petal"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "128x128 or 256x256",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "prayer-flag-cotton-tile.webp",
+      "path": "/textures/fabric/prayer-flag-cotton-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "prayer-flag-cotton-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "silk-brocade-tile.webp",
+      "path": "/textures/fabric/silk-brocade-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "silk-brocade-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "antique-gold-tile.webp",
+      "path": "/textures/metal/antique-gold-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "antique-gold-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "bronze-tile.webp",
+      "path": "/textures/metal/bronze-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "bronze-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "lotus-petal-tile.webp",
+      "path": "/textures/organic/lotus-petal-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "lotus-petal-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "sandalwood-grain-tile.webp",
+      "path": "/textures/organic/sandalwood-grain-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "sandalwood-grain-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "obsidian-tile.webp",
+      "path": "/textures/stone/obsidian-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "obsidian-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "temple-stone-tile.webp",
+      "path": "/textures/stone/temple-stone-tile.webp",
+      "type": "image",
+      "purpose": "Tileable material texture",
+      "screens": [
+        "backgrounds",
+        "ui"
+      ],
+      "tags": [
+        "texture",
+        "tileable",
+        "temple-stone-tile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1024x1024 seamless tile",
+      "maxFileSizeKB": 500
+    },
+    {
+      "filename": "himalayan-clouds-loop.mp4",
+      "path": "/videos/ambient/himalayan-clouds-loop.mp4",
+      "type": "video",
+      "purpose": "Ambient environmental loops",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "ambient",
+        "loop",
+        "himalayan-clouds-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "10-30s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "prayer-flags-wind-loop.mp4",
+      "path": "/videos/ambient/prayer-flags-wind-loop.mp4",
+      "type": "video",
+      "purpose": "Ambient environmental loops",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "ambient",
+        "loop",
+        "prayer-flags-wind-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "10-30s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "temple-ambience-loop.mp4",
+      "path": "/videos/ambient/temple-ambience-loop.mp4",
+      "type": "video",
+      "purpose": "Ambient environmental loops",
+      "screens": [
+        "shrine",
+        "settings"
+      ],
+      "tags": [
+        "ambient",
+        "loop",
+        "temple-ambience-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "10-30s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "golden-light-blessing.mp4",
+      "path": "/videos/blessings/golden-light-blessing.mp4",
+      "type": "video",
+      "purpose": "Merit dedication and blessing sequences",
+      "screens": [
+        "merit"
+      ],
+      "tags": [
+        "blessing",
+        "golden-light-blessing"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "8-15s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "merit-dedication.mp4",
+      "path": "/videos/blessings/merit-dedication.mp4",
+      "type": "video",
+      "purpose": "Merit dedication and blessing sequences",
+      "screens": [
+        "merit"
+      ],
+      "tags": [
+        "blessing",
+        "merit-dedication"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "8-15s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "intro-sequence.mp4",
+      "path": "/videos/cinematic/intro-sequence.mp4",
+      "type": "video",
+      "purpose": "Long-form cinematic sequences",
+      "screens": [
+        "intro",
+        "seasonal"
+      ],
+      "tags": [
+        "cinematic",
+        "intro-sequence"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 or 1920x1080",
+      "expectedDuration": "20-60s",
+      "maxFileSizeKB": 4000
+    },
+    {
+      "filename": "seasonal-losar-sequence.mp4",
+      "path": "/videos/cinematic/seasonal-losar-sequence.mp4",
+      "type": "video",
+      "purpose": "Long-form cinematic sequences",
+      "screens": [
+        "intro",
+        "seasonal"
+      ],
+      "tags": [
+        "cinematic",
+        "seasonal-losar-sequence"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 or 1920x1080",
+      "expectedDuration": "20-60s",
+      "maxFileSizeKB": 4000
+    },
+    {
+      "filename": "yellow-dzambhala-blessing.mp4",
+      "path": "/videos/deities/yellow-dzambhala/shrine-loops/yellow-dzambhala-blessing.mp4",
+      "type": "video",
+      "purpose": "Deity-specific animated shrine loops and blessing moments",
+      "screens": [
+        "shrine",
+        "blessing"
+      ],
+      "tags": [
+        "deity",
+        "loop",
+        "yellow-dzambhala",
+        "yellow-dzambhala-blessing"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 H.264",
+      "expectedDuration": "8-15s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "yellow-dzambhala-halo-pulse-loop.mp4",
+      "path": "/videos/deities/yellow-dzambhala/shrine-loops/yellow-dzambhala-halo-pulse-loop.mp4",
+      "type": "video",
+      "purpose": "Deity-specific animated shrine loops and blessing moments",
+      "screens": [
+        "shrine",
+        "blessing"
+      ],
+      "tags": [
+        "deity",
+        "loop",
+        "yellow-dzambhala",
+        "yellow-dzambhala-halo-pulse-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 H.264",
+      "expectedDuration": "8-15s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "yellow-dzambhala-shrine-loop.mp4",
+      "path": "/videos/deities/yellow-dzambhala/shrine-loops/yellow-dzambhala-shrine-loop.mp4",
+      "type": "video",
+      "purpose": "Deity-specific animated shrine loops and blessing moments",
+      "screens": [
+        "shrine",
+        "blessing"
+      ],
+      "tags": [
+        "deity",
+        "loop",
+        "yellow-dzambhala",
+        "yellow-dzambhala-shrine-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 H.264",
+      "expectedDuration": "8-15s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "candle-flicker-loop.mp4",
+      "path": "/videos/effects/candles/candle-flicker-loop.mp4",
+      "type": "video",
+      "purpose": "Particle/flame effect loops",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "effect",
+        "loop",
+        "candle-flicker-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "6-12s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "ember-rise-loop.mp4",
+      "path": "/videos/effects/particles/ember-rise-loop.mp4",
+      "type": "video",
+      "purpose": "Particle/flame effect loops",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "effect",
+        "loop",
+        "ember-rise-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "6-12s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "golden-dust-loop.mp4",
+      "path": "/videos/effects/particles/golden-dust-loop.mp4",
+      "type": "video",
+      "purpose": "Particle/flame effect loops",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "effect",
+        "loop",
+        "golden-dust-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "6-12s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "incense-smoke-screen-blend-loop.mp4",
+      "path": "/videos/effects/smoke/incense-smoke-screen-blend-loop.mp4",
+      "type": "video",
+      "purpose": "Incense smoke for screen-blend compositing (black background)",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "effect",
+        "smoke",
+        "screen-blend",
+        "incense-smoke-screen-blend-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, dark bg for screen blend",
+      "expectedDuration": "8-12s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "main-shrine-loop-mobile.mp4",
+      "path": "/videos/hero/main-shrine-loop-mobile.mp4",
+      "type": "video",
+      "purpose": "Primary living-shrine hero loop",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "hero",
+        "loop",
+        "main-shrine-loop-mobile"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 H.264, seamless loop",
+      "expectedDuration": "10-20s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "main-shrine-loop.mp4",
+      "path": "/videos/hero/main-shrine-loop.mp4",
+      "type": "video",
+      "purpose": "Primary living-shrine hero loop",
+      "screens": [
+        "shrine"
+      ],
+      "tags": [
+        "hero",
+        "loop",
+        "main-shrine-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920 H.264, seamless loop",
+      "expectedDuration": "10-20s loop",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "butter-lamp-lighting.mp4",
+      "path": "/videos/offerings/butter-lamps/butter-lamp-lighting.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "butter-lamp-lighting"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "butter-lamp-loop.mp4",
+      "path": "/videos/offerings/butter-lamps/butter-lamp-loop.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "butter-lamp-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "flower-bloom.mp4",
+      "path": "/videos/offerings/flowers/flower-bloom.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "flower-bloom"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "lotus-offering.mp4",
+      "path": "/videos/offerings/flowers/lotus-offering.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "lotus-offering"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "fruit-offering.mp4",
+      "path": "/videos/offerings/fruit/fruit-offering.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "fruit-offering"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "incense-lighting.mp4",
+      "path": "/videos/offerings/incense/incense-lighting.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "incense-lighting"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "incense-loop.mp4",
+      "path": "/videos/offerings/incense/incense-loop.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "incense-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "jewel-offering.mp4",
+      "path": "/videos/offerings/jewels/jewel-offering.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "jewel-offering"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "jewel-shimmer-loop.mp4",
+      "path": "/videos/offerings/jewels/jewel-shimmer-loop.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "jewel-shimmer-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "water-offering.mp4",
+      "path": "/videos/offerings/water/water-offering.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "water-offering"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "water-pour-loop.mp4",
+      "path": "/videos/offerings/water/water-pour-loop.mp4",
+      "type": "video",
+      "purpose": "Offering ritual video moments",
+      "screens": [
+        "offerings"
+      ],
+      "tags": [
+        "offering",
+        "water-pour-loop"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920",
+      "expectedDuration": "4-8s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "screen-transition-golden-fade.mp4",
+      "path": "/videos/transitions/screen-transition-golden-fade.mp4",
+      "type": "video",
+      "purpose": "Screen transition sequences",
+      "screens": [
+        "navigation"
+      ],
+      "tags": [
+        "transition",
+        "screen-transition-golden-fade"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha or luma-matte if possible",
+      "expectedDuration": "1-2s",
+      "maxFileSizeKB": 350
+    },
+    {
+      "filename": "temple-doors-opening.mp4",
+      "path": "/videos/transitions/temple-doors-opening.mp4",
+      "type": "video",
+      "purpose": "Screen transition sequences",
+      "screens": [
+        "navigation"
+      ],
+      "tags": [
+        "transition",
+        "temple-doors-opening"
+      ],
+      "status": "placeholder",
+      "expectedResolution": "1080x1920, alpha or luma-matte if possible",
+      "expectedDuration": "1-2s",
+      "maxFileSizeKB": 350
+    }
+  ]
+}

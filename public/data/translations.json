@@ -1,0 +1,14 @@
+{
+  "locales": [
+    "en"
+  ],
+  "en": {
+    "app.title": "Yellow Dzambhala",
+    "shrine.enter": "Enter the Shrine",
+    "practice.begin": "Begin Practice",
+    "practice.mantra": "OM DZAMBHALA DZALENDRAYE SOHA",
+    "offering.make": "Make an Offering",
+    "merit.dedicate": "Dedicate the Merit",
+    "settings.title": "Settings"
+  }
+}

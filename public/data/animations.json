@@ -1,0 +1,32 @@
+{
+  "animations": [
+    {
+      "id": "mantra-ring-rotation",
+      "type": "lottie",
+      "src": "/animations/lottie/mantra-ring-rotation.json",
+      "loop": true,
+      "screen": "practice"
+    },
+    {
+      "id": "endless-knot-draw",
+      "type": "lottie",
+      "src": "/animations/lottie/endless-knot-draw.json",
+      "loop": false,
+      "screen": "all-titles"
+    },
+    {
+      "id": "lotus-bloom",
+      "type": "lottie",
+      "src": "/animations/lottie/lotus-bloom.json",
+      "loop": false,
+      "screen": "offering-flower"
+    },
+    {
+      "id": "bell-ripple",
+      "type": "lottie",
+      "src": "/animations/lottie/bell-ripple.json",
+      "loop": false,
+      "screen": "practice"
+    }
+  ]
+}

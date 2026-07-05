@@ -1,0 +1,15 @@
+{
+  "prayers": [
+    {
+      "id": "merit-dedication-short",
+      "title": "Dedication of Merit",
+      "lines": [
+        "By this merit may all beings",
+        "Be freed from poverty of body and mind,",
+        "And may the wealth of generosity",
+        "Flow endlessly for the benefit of all."
+      ],
+      "audio": "/audio/voice/guided/merit-dedication-spoken.mp3"
+    }
+  ]
+}
