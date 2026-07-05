@@ -2,7 +2,7 @@
   "shrine": {
     "deityId": "yellow-dzambhala",
     "background": "/images/shrine/backgrounds/main-shrine-background.webp",
-    "heroLoop": "/videos/hero/main-shrine-loop.mp4",
+  "heroLoop": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/main-shrine-loop-mobile.mp4",
     "ambienceAudio": "/audio/ambience/temple/temple-ambience-day.mp3",
     "layers": [
       {

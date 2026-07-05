@@ -6,7 +6,7 @@
       "symbolism": "Purity and clarity of mind",
       "icon": "/icons/offerings/offering-water.svg",
       "image": "/images/offerings/water/water-offering-bowl.webp",
-      "video": "/videos/offerings/water/water-offering.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/water-offering.mp4",
       "sound": "/audio/offerings/water-offering-pour.mp3",
       "durationMs": 6000
     },
@@ -16,7 +16,7 @@
       "symbolism": "The light of wisdom dispelling ignorance",
       "icon": "/icons/offerings/offering-butter-lamp.svg",
       "image": "/images/offerings/butter-lamps/butter-lamp-single.webp",
-      "video": "/videos/offerings/butter-lamps/butter-lamp-loop.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/butter-lamp-loop.mp4",
       "sound": "/audio/offerings/butter-lamp-ignite.mp3",
       "durationMs": 6000
     },
@@ -26,7 +26,7 @@
       "symbolism": "Ethical discipline perfuming all directions",
       "icon": "/icons/offerings/offering-incense.svg",
       "image": "/images/offerings/incense/incense-burner.webp",
-      "video": "/videos/offerings/incense/incense-loop.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/incense-loop.mp4",
       "sound": "/audio/offerings/incense-light.mp3",
       "durationMs": 6000
     },
@@ -36,7 +36,7 @@
       "symbolism": "The blossoming of enlightenment",
       "icon": "/icons/offerings/offering-flower.svg",
       "image": "/images/offerings/flowers/lotus-offering-fresh.webp",
-      "video": "/videos/offerings/flowers/lotus-offering.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/flower-bloom.mp4",
       "sound": "/audio/offerings/flower-place.mp3",
       "durationMs": 6000
     },
@@ -46,7 +46,7 @@
       "symbolism": "The ripened fruits of generosity",
       "icon": "/icons/offerings/offering-fruit.svg",
       "image": "/images/offerings/fruit/fruit-offering-plate.webp",
-      "video": "/videos/offerings/fruit/fruit-offering.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/fruit-offering.mp4",
       "sound": "/audio/offerings/fruit-place.mp3",
       "durationMs": 6000
     },
@@ -56,7 +56,7 @@
       "symbolism": "The wish-fulfilling jewel of bodhicitta",
       "icon": "/icons/offerings/offering-jewel.svg",
       "image": "/images/offerings/jewels/jewel-offering-heap.webp",
-      "video": "/videos/offerings/jewels/jewel-offering.mp4",
+      "video": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/jewel-offering%20copy.mp4",
       "sound": "/audio/offerings/jewel-place.mp3",
       "durationMs": 6000
     }

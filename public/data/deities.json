@@ -24,7 +24,7 @@
       },
       "assets": {
         "portrait": "/images/deities/yellow-dzambhala/yellow-dzambhala.webp",
-        "shrineLoop": "/videos/deities/yellow-dzambhala/shrine-loops/yellow-dzambhala-shrine-loop.mp4",
+        ""shrineLoop": "https://bxlgznpbzulekzpa.public.blob.vercel-storage.com/yellow-dzambhala-shrine-loop.mp4",
         "mantraAudio": "/audio/voice/deities/yellow-dzambhala/dzambhala-mantra-108-loop.mp3"
       },
       "status": "active"
